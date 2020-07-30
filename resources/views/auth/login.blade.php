@@ -10,10 +10,10 @@
     <div class="container">
         <div class="flex mx-16 h-full">
             <div class="flex-1 my-auto">
-                <h1 class="text-4xl text-blue-500">Hello</h1>
-                <p class="text-md">Welcome to twitter clone.</p>
+                <h1 class="text-5xl text-blue-500">Hello . . .</h1>
+                <p class="text-lg">Welcome to twitter clone.</p>
             </div>
-            <div class="flex-1 my-auto">
+            <div class="flex-1 my-auto pl-8">
                 <p class="text-sm">Alraedy have an account?</p>
                 <form action="/login" method="post" class="text-xs">
                     @csrf

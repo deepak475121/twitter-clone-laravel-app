@@ -21,7 +21,7 @@
 </head>
 <body>
     <div id="app">
-        @auth
+        {{-- @auth
             <form action="/logout" method="post">
                 @csrf
                 <button type="submit">Logout</button>
@@ -30,10 +30,16 @@
             <header>
                 <h1 class="px-8">Twitter</h1>
             </header>
-        @endauth
+        @endauth --}}
 
-        <main class="py-4">
-            @yield('content')
+        <main class="">
+            <div class="container">
+                <div class="flex mx-8 h-full">
+                    <div class="w-48">Nav Bar</div>
+                    <div class="flex-1">@yield('content')</div>
+                    <div class="">Following</div>
+                </div>
+            </div>
         </main>
     </div>
 </body>
